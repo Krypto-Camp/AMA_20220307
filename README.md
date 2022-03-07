@@ -2,7 +2,7 @@
 AMA for ERC20 practice
 ## npm
 npx hardhat accounts
-  - Create an empty hardhat.config.js
+-- Create an empty hardhat.config.js
 npm init -y
 npm install --save-dev hardhat
 npm install --save-dev @openzeppelin/contracts @openzeppelin/hardhat-upgrades @openzeppelin/hardhat-defender 
