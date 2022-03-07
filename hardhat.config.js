@@ -10,10 +10,10 @@ chai.use(solidity);
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
-const ALCHEMY_ROPSTEN_API_KEY = "_fkmtC9cThIfpPEuNQ2G2VR6VJPFyEyF";
-const ALCHEMY_RINKEBY_API_KEY = "LY7RQD9L3-7DuQaXqDY9ulOH7egxbmum";
-const INFURA_RINKEBY_API_KEY = "ffd3c0f0346e495291d9407a54a14b72";
-const PRIVATE_KEY = "15eb7e6896aa88a02bf1e5d8fa3497d2fb29964c5889955078b0a7448f95b33f";
+const ALCHEMY_ROPSTEN_API_KEY = YOUR_ALCHEMY_ROPSTEN_API_KEY;
+const ALCHEMY_RINKEBY_API_KEY = YOUR_ALCHEMY_RINKEBY_API_KEY;
+const INFURA_RINKEBY_API_KEY = YOUR_INFURA_RINKEBY_API_KEY;
+const PRIVATE_KEY = YOUR_PRIVATE_KEY;
 
 module.exports = {
   solidity: "0.8.0",
@@ -38,8 +38,8 @@ module.exports = {
   // },
 	etherscan: {
     apiKey: {
-      ropsten: "SD61EDRUZ7W3KHXXFTSG7YI5Q66CPHFT5R",
-      rinkeby: "SD61EDRUZ7W3KHXXFTSG7YI5Q66CPHFT5R"
+      ropsten: YOUR_apiKey,
+      rinkeby: YOUR_apiKey
     }
   }
 };
